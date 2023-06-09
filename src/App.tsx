@@ -1,3 +1,10 @@
 import React from "react";
+import { SideNav } from "./components/sidenav";
 
-export const App = () => <h1>Hello React</h1>;
+import "./style.css";
+
+export const App = () => (
+  <div>
+    <SideNav />
+  </div>
+);

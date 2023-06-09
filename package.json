@@ -1,12 +1,13 @@
 {
-  "name": "insta-downloader-ui",
+  "name": "auto-tester-ui",
   "version": "1.0.0",
-  "description": "It will allow you to download reels from instagram",
+  "description": "Automation tester",
   "main": "index.js",
-  "author": "2G Developers",
+  "author": "Asha",
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve",
+    "start": "webpack serve",
     "build": "webpack --mode production",
     "tscheck": "tsc",
     "lint": "eslint --ext .js,.ts,.jsx,.tsx src",
@@ -38,7 +39,11 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "antd": "^5.5.0",
+    "css-loader": "^6.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.3"
   }
 }
